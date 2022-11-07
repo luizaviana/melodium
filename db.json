@@ -25,30 +25,30 @@
       "artista":"Taylor Swift"
     }
   ],
-    "olivia": [
-     [
+  "olivia": [
+    {
        "id": 1,
        "imagem": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
        "nome": "deja vu",
        "artista": "Olivia Rodrigo"
-    ],
-    [
+    },
+    {
       "id": 2,
       "imagem": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
       "nome": "happier",
       "artista": "Olivia Rodrigo"
-    ],
-    [
+    },
+    {
       "id": 3,
       "imagem": "https://i.scdn.co/image/ab67616d00004851241e4fe75732c9c4b49b94c3",
       "nome": "Olivia",
       "artista": "One Direction"
-    ],
-    [
+    },
+    {
       "id": 4,
       "imagem": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
       "nome": "drivers license",
       "artista": "Olivia Rodrigo"
-    ]
+    }
   ]
 }
