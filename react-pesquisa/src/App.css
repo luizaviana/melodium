@@ -1,10 +1,11 @@
 .App {
   text-align: center;
+  
 }
 
 .App-header {
   background-color: #E5E5E5;
-  min-height: 100vh;
+  min-height: 175vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,12 +52,12 @@ h2 {
 }
 
 p {
-  position: relative;
+  position: absolute;
   justify-content: center;
   align-content: center;
   width: 749px;
   height: 114px;
-  top: -20px;
+  top: 270px;
 
   font-family:  url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
   font-style: normal;
@@ -69,12 +70,12 @@ p {
 }
 
 #pesquisa {
-  position: relative;
+  position: absolute;
   justify-content: center;
   align-content: center;
   width: 782px;
   height: 75px;
-  top: -20px;
+  top: 400px;
   padding: 25px;
 
   border-style: none;
@@ -90,21 +91,21 @@ p {
 }
 
 button {
-  position: relative;
+  position: absolute;
   justify-content: center;
   align-content: center;
   width: 320px;
   height: 70px;
-  top: 5px;
+  top: 500px;
   padding: 10px;
 
-  background: rgba(39, 177, 191, 0.64);
+  background: rgba(39, 177, 191, 0.84);
   border-radius: 100px;
   border-style: none;
 
   font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 25px;
   line-height: 45px;
   text-align: center;
@@ -116,4 +117,82 @@ button:hover{
   cursor: pointer;
   transition: 0.5s;
   background: rgba(35, 161, 175, 0.64);
+}
+
+div#itens {
+  position: absolute;
+  top: 550px;
+}
+
+div.itemBD {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  align-items: left;
+  justify-content: baseline;
+  width: 550px;
+  height: 100px;
+  padding: 20px 30px; 
+
+  margin-top: 40px;
+
+}
+
+div.itemBD:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgb(243, 243, 243);
+}
+
+img.itemImagem {
+  width: 75px;
+  height: 75px;
+  grid-column-start: 0;
+  grid-column-end: 1;
+  grid-row-start: 0;
+  margin: 10px;
+}
+
+h1.itemNome {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+  margin: 5px 0 0 20px;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+
+
+  color: #000000;
+}
+
+h3.itemArtista {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+  margin: -40px 0 0 20px;
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+
+
+  color: #000000;
 }
