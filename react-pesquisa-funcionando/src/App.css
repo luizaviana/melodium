@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #E5E5E5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  position: absolute;
+  width: 214px;
+  height: 183px;
+  left: 400px;
+  top: 78px;
+}
+
+h1#titulo {
+  position: absolute;
+  width: 658px;
+  height: 74px;
+  left: 570px;
+  top: 10px;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+  font-size: 100px;
+  line-height: 150px;
+
+  color: #000000;
+}
+
+h2 {
+  position: absolute;
+  width: 658px;
+  height: 74px;
+  left: 620px;
+  top: 190px;
+  
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+
+p {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  width: 749px;
+  height: 114px;
+  top: -20px;
+
+  font-family:  url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+#pesquisa {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  width: 782px;
+  height: 75px;
+  top: -20px;
+  padding: 25px;
+
+  border-style: none;
+  background: #FFFFFF;
+  border-radius: 100px;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 45px;
+
+  color: rgba(0, 0, 0, 0.74);
+}
+
+button {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  width: 320px;
+  height: 70px;
+  top: 5px;
+  padding: 10px;
+
+  background: rgba(39, 177, 191, 0.64);
+  border-radius: 100px;
+  border-style: none;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.74);
+}
+
+button:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(35, 161, 175, 0.64);
+}
