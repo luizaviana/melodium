@@ -37,44 +37,6 @@
             "valencia": 0.57,
             "bpm": 95.997
         }
-    }
-    {
-        "nome": "Maroon",
-        "artista": "Taylor Swift",
-        "imagem": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
-        "id": "3eX0NZfLtGzoLUxPNvRfqm",
-        "features": {
-            "dancabilidade": 0.637,
-            "energia": 0.398,
-            "tom": 7,
-            "volume": -8.294,
-            "modo": 1,
-            "falatoria": 0.0564,
-            "acustico": 0.0573,
-            "instrumental": 0.00000103,
-            "vivacidade": 0.101,
-            "valencia": 0.0374,
-            "bpm": 108.075
-        }
-    },
-    {
-        "nome": "Midnight Rain",
-        "artista": "Taylor Swift",
-        "imagem": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
-        "id": "3rWDp9tBPQR9z6U5YyRSK4",
-        "features": {
-            "dancabilidade": 0.643,
-            "energia": 0.363,
-            "tom": 0,
-            "volume": -11.738,
-            "modo": 1,
-            "falatoria": 0.0767,
-            "acustico": 0.69,
-            "instrumental": 0.0000517,
-            "vivacidade": 0.115,
-            "valencia": 0.23,
-            "bpm": 139.865
-        }
     },
     {
         "nome": "Lavender Haze",
