@@ -37,26 +37,7 @@
             "valencia": 0.57,
             "bpm": 95.997
         }
-    },
-    {
-        "nome": "Anti-Hero (feat. Bleachers)",
-        "artista": "Taylor Swift",
-        "imagem": "https://i.scdn.co/image/ab67616d00001e0250a1e24dde78df1d0ebc68ef",
-        "id": "0j0gJqxitjhmmkrW56dtQH",
-        "features": {
-            "dancabilidade": 0.633,
-            "energia": 0.809,
-            "tom": 9,
-            "volume": -7.645,
-            "modo": 1,
-            "falatoria": 0.0364,
-            "acustico": 0.00956,
-            "instrumental": 0.00215,
-            "vivacidade": 0.102,
-            "valencia": 0.471,
-            "bpm": 96.947
-        }
-    },
+    }
     {
         "nome": "Maroon",
         "artista": "Taylor Swift",
@@ -153,25 +134,6 @@
         }
     },
     {
-        "nome": "Wildest Dreams (Taylor's Version)",
-        "artista": "Taylor Swift",
-        "imagem": "https://i.scdn.co/image/ab67616d00001e02eb10050f6fe8e2783a91a4b1",
-        "id": "1Ov37jtRQ2YNAe8HzfczkL",
-        "features": {
-            "dancabilidade": 0.583,
-            "energia": 0.67,
-            "tom": 8,
-            "volume": -7.289,
-            "modo": 1,
-            "falatoria": 0.0646,
-            "acustico": 0.0374,
-            "instrumental": 0.0001,
-            "vivacidade": 0.126,
-            "valencia": 0.498,
-            "bpm": 140.061
-        }
-    },
-    {
         "nome": "Don't Blame Me",
         "artista": "Taylor Swift",
         "imagem": "https://i.scdn.co/image/ab67616d00001e02da5d5aeeabacacc1263c0f4b",
@@ -188,25 +150,6 @@
             "vivacidade": 0.0607,
             "valencia": 0.193,
             "bpm": 135.917
-        }
-    },
-    {
-        "nome": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-        "artista": "Taylor Swift",
-        "imagem": "https://i.scdn.co/image/ab67616d00001e0263d77f99117b28af9f656918",
-        "id": "55n9yjI6qqXh5F2mYvUc2y",
-        "features": {
-            "dancabilidade": 0.731,
-            "energia": 0.445,
-            "tom": 0,
-            "volume": -8.418,
-            "modo": 1,
-            "falatoria": 0.0533,
-            "acustico": 0.0586,
-            "instrumental": 0.0000196,
-            "vivacidade": 0.14,
-            "valencia": 0.106,
-            "bpm": 117.97
         }
     },
     {
