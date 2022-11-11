@@ -379,44 +379,6 @@
             "valencia": 0.403,
             "bpm": 89.937
         }
-    },
-    {
-        "nome": "willow",
-        "artista": "Taylor Swift",
-        "imagem": "https://i.scdn.co/image/ab67616d00001e0233b8541201f1ef38941024be",
-        "id": "0lx2cLdOt3piJbcaXIV74f",
-        "features": {
-            "dancabilidade": 0.392,
-            "energia": 0.574,
-            "tom": 7,
-            "volume": -9.195,
-            "modo": 1,
-            "falatoria": 0.17,
-            "acustico": 0.833,
-            "instrumental": 0.00179,
-            "vivacidade": 0.145,
-            "valencia": 0.529,
-            "bpm": 81.112
-        }
-    },
-    {
-        "nome": "evermore (feat. Bon Iver)",
-        "artista": "Taylor Swift",
-        "imagem": "https://i.scdn.co/image/ab67616d00001e0233b8541201f1ef38941024be",
-        "id": "3O5osWf1rSoKMwe6E9ZaXP",
-        "features": {
-            "dancabilidade": 0.39,
-            "energia": 0.27,
-            "tom": 1,
-            "volume": -10.673,
-            "modo": 1,
-            "falatoria": 0.0308,
-            "acustico": 0.937,
-            "instrumental": 0.00227,
-            "vivacidade": 0.111,
-            "valencia": 0.32,
-            "bpm": 125.177
-        }
     }
     ]
 }
