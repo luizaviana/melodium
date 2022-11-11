@@ -1,56 +1,48 @@
-const puppeteer = require('puppeteer');
+const fetch = require('node-fetch');
 
-var resp
-async function Search(pesquisa) {
-  resp = await scraper(pesquisa)
-  return (resp)
-}
-// app.get('/:id', async function(req, res) {
-//         pesquisa = await scraper(req.params.id)
+const client_id = '598085d5cea743e39800feb5ec3e5521'
+const client_secret = '63212498d1ab4988b261bea8cde15ca2'
 
-//         console.log(pesquisa)
+async function Search (params) {
 
-//         res.status(200).send(pesquisa);
-//     });
+    const get_token = await fetch('https://accounts.spotify.com/api/token', {
+        method: 'POST',
+        headers: {
+            'Content-Type' : 'application/x-www-form-urlencoded', 
+            'Authorization' : 'Basic ' + btoa(client_id + ':' + client_secret)  
+        },
+        body: 'grant_type=client_credentials'
+    });
 
-
-async function scraper (params) {
-
-    const browser = await puppeteer.launch()
-    const page = await browser.newPage()
-    await page.goto('https://open.spotify.com/search/' + params)
-  
-    await page.waitForTimeout(2000)
-    await page.screenshot({path: '1.png'})
-  
-    var obj = [];
-    for (var i = 1; i < 5; i++) {
-      const [html_img] = await page.$x(`//*[@class="JUa6JJNj7R_Y3i4P8YUX"]/div[2]/div[${i}]/div/div/div/img`)
-      const link = await html_img.getProperty('src')
-      const rawLink = await link.jsonValue()
-      
-  
-      const [html_nome] = await page.$x(`//*[@class="JUa6JJNj7R_Y3i4P8YUX"]/div[2]/div[${i}]/div/div[1]/div[2]/div`);
-      const nome = await html_nome.getProperty('textContent');
-      const rawNome = await nome.jsonValue();
-  
-      const [html_artista] = await page.$x(`//*[@class="JUa6JJNj7R_Y3i4P8YUX"]/div[2]/div[${i}]/div/div[1]/div[2]/span/a[1]`);
-      const artista = await html_artista.getProperty('textContent');
-      const rawArtista = await artista.jsonValue();
-  
-      var objeto = {
-        imagem: rawLink,
-        nome: rawNome,
-        artista: rawArtista
-      }
-      
-      obj.push(objeto);
-      
-    }
+    const tokenJSON = await get_token.json()
+    const token = tokenJSON.access_token
     
-    await browser.close()
+    const result = await fetch(`https://api.spotify.com/v1/search?type=track&q=${params}&market=BR&limit=4`, {
+        method: 'GET',
+        headers: {
+            'Content-Type' : 'application/json', 
+            'Authorization' : 'Bearer ' + token
+        }
+    });
 
-    return obj;
+    const data = await result.json();
+    var obj = []
+    obj = data.tracks.items;
+    
+    var fora = [];
+    for(var i = 0; i < 4; i++)
+    {
+        var dentro = {
+          id: obj[i].id,
+          nome: obj[i].name,
+          imagem: obj[i].album.images[1].url,
+          artista: obj[i].album.artists[0].name
+        }
+        
+        fora.push(dentro)
+    }
+
+    return fora;
 }
 
-export default Search();
+export default Search;

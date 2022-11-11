@@ -1,19 +1,23 @@
 import { useState, useEffect } from 'react';
-import logo from './melodium-logo.png';
-//import Search from './Search.js'
-//import { Express } from 'express';
-
-import './App.css';
+import logo from './assets/melodium-logo.png';
+import Search from './Search.js'
+import './css/App.css';
 ;
-
+var resposta = [], global = []
 const App = () => {
   const [pesquisa, setPesquisa] = useState('');
-  const [scrapped, setScrapped] = useState([])
-  const handleClick = event => {
-    console.log(pesquisa);
-    setScrapped(Search(pesquisa))
-    console.log(scrapped)
-  };
+  const [items, setItems] = useState([])
+  
+  var handleClick = async function (event) {
+    const response = await Search(pesquisa);
+    setItems(response);
+    console.log(response)
+        //console.log(global)
+  }
+  
+  function scrape(vector) {
+
+  }
   //  function handleClick() {
   //   let inserido = document.getElementById("pesquisa").value
   //   console.log(inserido)
@@ -43,18 +47,21 @@ const App = () => {
         <p>A partir de somente uma música, encontramos similares para completar sua playlist</p>
         <input id="pesquisa" type="search" onChange={event => setPesquisa(event.target.value)} placeholder='Digite aqui sua obsessão do momento'></input>
         <button onClick={handleClick}>Pesquisar</button>
-      
-        {/* {
-          pesquisa.map(item => {
-            return (
-              <div className="itemBD">
-                <h1 className="itemNome">{item.nome}</h1>
-                <img className='itemImagem' src={item.imagem}></img>
-                <h3 className='itemArtista'>{item.artista}</h3>
-              </div>
-            )
-          }) */
-        }
+        <div id='itens'>{
+          items.map(item => {
+            var nome = item.nome;
+            if (item.nome.length > 28)
+              nome = item.nome.substring(0, 26) + "..."
+
+             return (
+                <div className="itemBD">
+                  <h1 className="itemNome">{nome}</h1>
+                  <img className='itemImagem' src={item.imagem}></img>
+                  <h3 className='itemArtista'>{item.artista}</h3>
+                </div>
+              )
+            })
+        }</div>
       </header>
     </div> 
   );
