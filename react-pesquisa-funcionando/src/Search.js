@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
-const client_id = '598085d5cea743e39800feb5ec3e5521'
-const client_secret = '63212498d1ab4988b261bea8cde15ca2'
+const client_id = ''
+const client_secret = ''
 
 async function Search (params) {
 
