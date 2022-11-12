@@ -1,0 +1,519 @@
+{
+    "posts": [
+    {
+        "id": "0V3wPSX9ygBnCm8psDIegu",
+        "nome": "Anti-Hero",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
+        "features": {
+            "dancabilidade": 0.637,
+            "energia": 0.643,
+            "tom": 4,
+            "volume": -6.571,
+            "modo": 1,
+            "falatoria": 0.0519,
+            "acustico": 0.13,
+            "instrumental": 0.0000018,
+            "vivacidade": 0.142,
+            "valencia": 0.533,
+            "bpm": 97.008
+        }
+    },
+    {
+        "nome": "Blank Space",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0252b2a3824413eefe9e33817a",
+        "id": "1u8c2t2Cy7UBoG4ArRcF5g",
+        "features": {
+            "dancabilidade": 0.76,
+            "energia": 0.703,
+            "tom": 5,
+            "volume": -5.412,
+            "modo": 1,
+            "falatoria": 0.054,
+            "acustico": 0.103,
+            "instrumental": 0,
+            "vivacidade": 0.0913,
+            "valencia": 0.57,
+            "bpm": 95.997
+        }
+    },
+    {
+        "nome": "Anti-Hero (feat. Bleachers)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0250a1e24dde78df1d0ebc68ef",
+        "id": "0j0gJqxitjhmmkrW56dtQH",
+        "features": {
+            "dancabilidade": 0.633,
+            "energia": 0.809,
+            "tom": 9,
+            "volume": -7.645,
+            "modo": 1,
+            "falatoria": 0.0364,
+            "acustico": 0.00956,
+            "instrumental": 0.00215,
+            "vivacidade": 0.102,
+            "valencia": 0.471,
+            "bpm": 96.947
+        }
+    },
+    {
+        "nome": "Maroon",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
+        "id": "3eX0NZfLtGzoLUxPNvRfqm",
+        "features": {
+            "dancabilidade": 0.637,
+            "energia": 0.398,
+            "tom": 7,
+            "volume": -8.294,
+            "modo": 1,
+            "falatoria": 0.0564,
+            "acustico": 0.0573,
+            "instrumental": 0.00000103,
+            "vivacidade": 0.101,
+            "valencia": 0.0374,
+            "bpm": 108.075
+        }
+    },
+    {
+        "nome": "Midnight Rain",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
+        "id": "3rWDp9tBPQR9z6U5YyRSK4",
+        "features": {
+            "dancabilidade": 0.643,
+            "energia": 0.363,
+            "tom": 0,
+            "volume": -11.738,
+            "modo": 1,
+            "falatoria": 0.0767,
+            "acustico": 0.69,
+            "instrumental": 0.0000517,
+            "vivacidade": 0.115,
+            "valencia": 0.23,
+            "bpm": 139.865
+        }
+    },
+    {
+        "nome": "Lavender Haze",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
+        "id": "5jQI2r1RdgtuT8S3iG8zFC",
+        "features": {
+            "dancabilidade": 0.733,
+            "energia": 0.436,
+            "tom": 10,
+            "volume": -10.489,
+            "modo": 1,
+            "falatoria": 0.08,
+            "acustico": 0.258,
+            "instrumental": 0.000573,
+            "vivacidade": 0.157,
+            "valencia": 0.0976,
+            "bpm": 96.985
+        }
+    },
+    {
+        "nome": "Should've Said No",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02c909d4e47de2ab0636f46d64",
+        "id": "6CdaXOq1MWe2JHDalTG01d",
+        "features": {
+            "dancabilidade": 0.476,
+            "energia": 0.777,
+            "tom": 4,
+            "volume": -3.771,
+            "modo": 0,
+            "falatoria": 0.0289,
+            "acustico": 0.0103,
+            "instrumental": 0,
+            "vivacidade": 0.196,
+            "valencia": 0.472,
+            "bpm": 167.964
+        }
+    },
+    {
+        "nome": "epiphany",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0295f754318336a07e85ec59bc",
+        "id": "08fa9LFcFBTcilB3iq2e2A",
+        "features": {
+            "dancabilidade": 0.354,
+            "energia": 0.267,
+            "tom": 1,
+            "volume": -13.69,
+            "modo": 1,
+            "falatoria": 0.0281,
+            "acustico": 0.731,
+            "instrumental": 0.000402,
+            "vivacidade": 0.0858,
+            "valencia": 0.113,
+            "bpm": 94.219
+        }
+    },
+    {
+        "nome": "Wildest Dreams (Taylor's Version)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02eb10050f6fe8e2783a91a4b1",
+        "id": "1Ov37jtRQ2YNAe8HzfczkL",
+        "features": {
+            "dancabilidade": 0.583,
+            "energia": 0.67,
+            "tom": 8,
+            "volume": -7.289,
+            "modo": 1,
+            "falatoria": 0.0646,
+            "acustico": 0.0374,
+            "instrumental": 0.0001,
+            "vivacidade": 0.126,
+            "valencia": 0.498,
+            "bpm": 140.061
+        }
+    },
+    {
+        "nome": "Don't Blame Me",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02da5d5aeeabacacc1263c0f4b",
+        "id": "1R0a2iXumgCiFb7HEZ7gUE",
+        "features": {
+            "dancabilidade": 0.615,
+            "energia": 0.534,
+            "tom": 9,
+            "volume": -6.719,
+            "modo": 0,
+            "falatoria": 0.0386,
+            "acustico": 0.106,
+            "instrumental": 0.0000176,
+            "vivacidade": 0.0607,
+            "valencia": 0.193,
+            "bpm": 135.917
+        }
+    },
+    {
+        "nome": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0263d77f99117b28af9f656918",
+        "id": "55n9yjI6qqXh5F2mYvUc2y",
+        "features": {
+            "dancabilidade": 0.731,
+            "energia": 0.445,
+            "tom": 0,
+            "volume": -8.418,
+            "modo": 1,
+            "falatoria": 0.0533,
+            "acustico": 0.0586,
+            "instrumental": 0.0000196,
+            "vivacidade": 0.14,
+            "valencia": 0.106,
+            "bpm": 117.97
+        }
+    },
+    {
+        "nome": "Speak Now",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02d0eae3c1661a96570f0ca7bd",
+        "id": "7dXKdjpOaH2iwfFKmUj7aq",
+        "features": {
+            "dancabilidade": 0.708,
+            "energia": 0.601,
+            "tom": 7,
+            "volume": -3.75,
+            "modo": 1,
+            "falatoria": 0.0306,
+            "acustico": 0.101,
+            "instrumental": 0,
+            "vivacidade": 0.0979,
+            "valencia": 0.742,
+            "bpm": 118.962
+        }
+    },
+    {
+        "nome": "Enchanted",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02d0eae3c1661a96570f0ca7bd",
+        "id": "04S1pkp1VaIqjg8zZqknR5",
+        "features": {
+            "dancabilidade": 0.535,
+            "energia": 0.618,
+            "tom": 8,
+            "volume": -3.913,
+            "modo": 1,
+            "falatoria": 0.0273,
+            "acustico": 0.0716,
+            "instrumental": 0.000388,
+            "vivacidade": 0.169,
+            "valencia": 0.228,
+            "bpm": 81.975
+        }
+    },
+    {
+        "nome": "Red (Taylor's Version)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+        "id": "4OAuvHryIVv4kMDNSLuPt6",
+        "features": {
+            "dancabilidade": 0.516,
+            "energia": 0.777,
+            "tom": 1,
+            "volume": -4.908,
+            "modo": 0,
+            "falatoria": 0.0375,
+            "acustico": 0.00108,
+            "instrumental": 0.00000162,
+            "vivacidade": 0.0761,
+            "valencia": 0.408,
+            "bpm": 125.047
+        }
+    },
+    {
+        "nome": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+        "id": "5enxwA8aAbwZbf5qCHORXi",
+        "features": {
+            "dancabilidade": 0.631,
+            "energia": 0.518,
+            "tom": 0,
+            "volume": -8.771,
+            "modo": 1,
+            "falatoria": 0.0303,
+            "acustico": 0.274,
+            "instrumental": 0,
+            "vivacidade": 0.088,
+            "valencia": 0.205,
+            "bpm": 93.023
+        }
+    }, 
+    {
+        "nome": "22 (Taylor's Version)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+        "id": "3yII7UwgLF6K5zW3xad3MP",
+        "features": {
+            "dancabilidade": 0.642,
+            "energia": 0.695,
+            "tom": 7,
+            "volume": -5.62,
+            "modo": 1,
+            "falatoria": 0.0281,
+            "acustico": 0.000443,
+            "instrumental": 0.0000102,
+            "vivacidade": 0.0753,
+            "valencia": 0.642,
+            "bpm": 103.984
+        }
+    },
+    {
+        "nome": "We Are Never Ever Getting Back Together (Taylor's Version)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+        "id": "5YqltLsjdqFtvqE7Nrysvs",
+        "features": {
+            "dancabilidade": 0.567,
+            "energia": 0.686,
+            "tom": 7,
+            "volume": -6.139,
+            "modo": 1,
+            "falatoria": 0.175,
+            "acustico": 0.0317,
+            "instrumental": 0.00000186,
+            "vivacidade": 0.0732,
+            "valencia": 0.716,
+            "bpm": 172.014
+        }
+    },
+    {
+        "nome": "Shake It Off",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0252b2a3824413eefe9e33817a",
+        "id": "0cqRj7pUJDkTCEsJkx8snD",
+        "features": {
+            "dancabilidade": 0.647,
+            "energia": 0.8,
+            "tom": 7,
+            "volume": -5.384,
+            "modo": 1,
+            "falatoria": 0.165,
+            "acustico": 0.0647,
+            "instrumental": 0,
+            "vivacidade": 0.334,
+            "valencia": 0.942,
+            "bpm": 160.078
+        }
+    },
+    {
+        "nome": "cardigan",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0295f754318336a07e85ec59bc",
+        "id": "4R2kfaDFhslZEMJqAFNpdd",
+        "features": {
+            "dancabilidade": 0.613,
+            "energia": 0.581,
+            "tom": 0,
+            "volume": -8.588,
+            "modo": 0,
+            "falatoria": 0.0424,
+            "acustico": 0.537,
+            "instrumental": 0.000345,
+            "vivacidade": 0.25,
+            "valencia": 0.551,
+            "bpm": 130.033
+        }
+    },
+    {
+        "nome": "august",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0295f754318336a07e85ec59bc",
+        "id": "3hUxzQpSfdDqwM3ZTFQY0K",
+        "features": {
+            "dancabilidade": 0.532,
+            "energia": 0.623,
+            "tom": 5,
+            "volume": -9.208,
+            "modo": 1,
+            "falatoria": 0.0331,
+            "acustico": 0.538,
+            "instrumental": 0.0000728,
+            "vivacidade": 0.0925,
+            "valencia": 0.403,
+            "bpm": 89.937
+        }
+    },
+    {
+        "nome": "willow",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0233b8541201f1ef38941024be",
+        "id": "0lx2cLdOt3piJbcaXIV74f",
+        "features": {
+            "dancabilidade": 0.392,
+            "energia": 0.574,
+            "tom": 7,
+            "volume": -9.195,
+            "modo": 1,
+            "falatoria": 0.17,
+            "acustico": 0.833,
+            "instrumental": 0.00179,
+            "vivacidade": 0.145,
+            "valencia": 0.529,
+            "bpm": 81.112
+        }
+    },
+    {
+        "nome": "evermore (feat. Bon Iver)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0233b8541201f1ef38941024be",
+        "id": "3O5osWf1rSoKMwe6E9ZaXP",
+        "features": {
+            "dancabilidade": 0.39,
+            "energia": 0.27,
+            "tom": 1,
+            "volume": -10.673,
+            "modo": 1,
+            "falatoria": 0.0308,
+            "acustico": 0.937,
+            "instrumental": 0.00227,
+            "vivacidade": 0.111,
+            "valencia": 0.32,
+            "bpm": 125.177
+        }
+    },
+    {
+        "nome": "champagne problems",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e0233b8541201f1ef38941024be",
+        "id": "0sY6ZUTh4yoctD8VIXz339",
+        "features": {
+            "dancabilidade": 0.462,
+            "energia": 0.24,
+            "tom": 0,
+            "volume": -12.077,
+            "modo": 1,
+            "falatoria": 0.0377,
+            "acustico": 0.92,
+            "instrumental": 0,
+            "vivacidade": 0.113,
+            "valencia": 0.32,
+            "bpm": 171.319
+        }
+    },
+    {
+        "nome": "Fearless (Taylor's Version)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02a48964b5d9a3d6968ae3e0de",
+        "id": "77sMIMlNaSURUAXq5coCxE",
+        "features": {
+            "dancabilidade": 0.569,
+            "energia": 0.741,
+            "tom": 5,
+            "volume": -4.963,
+            "modo": 1,
+            "falatoria": 0.0282,
+            "acustico": 0.0122,
+            "instrumental": 0,
+            "vivacidade": 0.333,
+            "valencia": 0.43,
+            "bpm": 100.118
+        }
+    },
+    {
+        "nome": "The Way I Loved You (Taylor's Version)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02a48964b5d9a3d6968ae3e0de",
+        "id": "22bPsP2jCgbLUvh82U0Z3M",
+        "features": {
+            "dancabilidade": 0.402,
+            "energia": 0.732,
+            "tom": 5,
+            "volume": -4.665,
+            "modo": 1,
+            "falatoria": 0.0484,
+            "acustico": 0.0033,
+            "instrumental": 0,
+            "vivacidade": 0.108,
+            "valencia": 0.472,
+            "bpm": 161.032
+        }
+    },
+    {
+        "nome": "You Belong With Me (Taylor's Version)",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02a48964b5d9a3d6968ae3e0de",
+        "id": "1qrpoAMXodY6895hGKoUpA",
+        "features": {
+            "dancabilidade": 0.632,
+            "energia": 0.773,
+            "tom": 6,
+            "volume": -4.856,
+            "modo": 1,
+            "falatoria": 0.0346,
+            "acustico": 0.0623,
+            "instrumental": 0,
+            "vivacidade": 0.0885,
+            "valencia": 0.474,
+            "bpm": 130.033
+        }
+    },
+    {
+        "nome": "Question...?",
+        "artista": "Taylor Swift",
+        "imagem": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
+        "id": "0heeNYlwOGuUSe7TgUD27B",
+        "features": {
+            "dancabilidade": 0.751,
+            "energia": 0.502,
+            "tom": 7,
+            "volume": -8.763,
+            "modo": 1,
+            "falatoria": 0.167,
+            "acustico": 0.2,
+            "instrumental": 0,
+            "vivacidade": 0.296,
+            "valencia": 0.106,
+            "bpm": 108.943
+        }
+    }
+
+    ]
+
+}
