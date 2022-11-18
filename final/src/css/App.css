@@ -1,0 +1,382 @@
+:root {
+  --background: #E5E5E5;
+  --botao:  rgba(39, 177, 191, 0.84);
+  --fonte-botao: rgba(255, 255, 255, 0.74);
+  --botao-hover: rgba(53, 177, 190, 0.64);
+}
+
+.App {
+  text-align: center;
+  height: 220vh;
+  width: 100vw;
+  background-color: var(--background);
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: calc(10px + 2vmin);
+}
+
+.App-logo {
+  width: 214px;
+  height: 183px;
+  position: absolute;
+  left: 525px;
+  top: 90px
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+
+h1#titulo {
+  position: absolute;
+  left: 800px;
+  top: 20px;
+  
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+  font-size: 100px;
+  line-height: 150px;
+
+  color: #000000;
+}
+
+h2#subtitulo {
+  position: absolute;
+  left: 780px;
+  top: 200px;
+
+  width: 658px;
+  height: 74px;
+  
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  
+  color: #000000;
+}
+
+p#p1 {
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  width: 749px;
+  height: 114px;
+  top: 270px;
+
+  font-family:  url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+#pesquisa {
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  width: 782px;
+  height: 75px;
+  top: 400px;
+  padding: 25px;
+
+  border-style: none;
+  background: #FFFFFF;
+  border-radius: 100px;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 45px;
+
+  color: rgba(0, 0, 0, 0.74);
+}
+
+button#b1 {
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+
+  width: 320px;
+  height: 70px;
+  top: 500px;
+  padding: 10px;
+
+  background: var(--botao);
+  border-radius: 100px;
+  border-style: none;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+
+  color: var(--fonte-botao);
+}
+
+button#b1:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  background: var(--botao-hover);
+}
+
+div#itens {
+  position: absolute;
+  top: 550px;
+}
+
+div.itemBD {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  align-items: left;
+  justify-content: baseline;
+  width: 550px;
+  height: 100px;
+  padding: 20px 30px; 
+
+  margin-top: 40px;
+
+}
+
+div.itemBD:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgb(243, 243, 243);
+}
+
+img.itemImagem {
+  width: 75px;
+  height: 75px;
+  grid-column-start: 0;
+  grid-column-end: 1;
+  grid-row-start: 0;
+  margin: 10px;
+}
+
+h1.itemNome {
+  overflow: visible;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+  margin: 5px 0 0 20px;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+
+
+  color: #000000;
+}
+
+h3.itemArtista {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+  margin: -40px 0 0 20px;
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+
+
+  color: #000000;
+}
+
+.musica-escolhida {
+  position: absolute;
+  top: 37vh;
+  width: 70vw;
+  height: 500px;
+
+  padding: 10px 5px 0;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+}
+
+h3.selecao {
+  position: absolute;
+  top: -9vh;
+  left: 4vw;
+  
+  color: #000000;
+  align-content: left;
+  align-self: left;
+}
+
+h1.songNome {
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+
+  position: relative;
+  left: 15vw;
+  top: -3vh;
+  color: #000000;
+}
+
+h3.songArtista {
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+
+  position: relative;
+  left: 15vw;
+  top: -27vh;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
+}
+
+h3.songAlbum {
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+
+  position: relative;
+  left: 15vw;
+  top: -30vh; 
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  font-style: normal;
+  font-weight: 300;
+  color: #000000;
+}
+
+img.songImagem {
+  position: relative;
+  left: -26vw;
+  top: -12vh;
+  
+  width: 17vh;
+  height: 17vh;;
+}
+
+img.logo-spotify {
+  position: relative;
+  left: 15.5vw;
+  top: -70vh;
+  
+  width: 100px;
+  height: 100px;
+}
+
+h2.songFeatures {
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+
+  position: relative;
+  left: 5vw;
+  top: -29vh;
+
+  font-size: 35px;
+  font-weight: 400;;
+  color: #000000;
+}
+
+h2.songFeaturesDireita {
+  display: flex;
+  justify-content: left;
+  height: fit-content;
+
+  position: relative;
+  left: 35vw;
+  top: -53vh;
+
+  font-size: 35px;
+  font-weight: 400;;
+  color: #000000;
+}
+
+button.recomendacao {
+  position: relative;
+  left: 26vw;
+  top: -90vh;
+  
+  width: 15vw;
+  height: 7vh;
+
+  background: var(--botao);
+  border-radius: 100px;
+  border-style: none;
+
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+
+  color: var(--fonte-botao);
+
+  background-color: var(--botao);
+}
+
+button.recomendacao:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  background: var(--botao-hover);
+}
+
+h3.tituloRecomendacao {
+  position: absolute;
+  top: 40vh;
+  left: 4vw;
+  color: #000000;
+  align-content: left;
+  align-self: left;
+}
+
+.musica-recomendada {
+  position: absolute;
+  top: 100vh;
+  left: 14vw;
+
+  width: 70vw;
+  height: 500px;
+
+  padding: 10px 5px 0;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+}
+
+img.logo-spotify-recomendacao {
+  position: relative;
+  left: 23vw;
+  top: -80vh;
+  
+  width: 100px;
+  height: 100px;
+}
