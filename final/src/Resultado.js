@@ -1,35 +1,25 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import logo from './assets/melodium-logo.png';
 import spotify from './assets/spotify-logo.png'
-import Return from './assets/return.png';
-import Features from './Features_v2'
-//import './css/Resultado.css';
-import Recomendacao from './Recomendacao';
+import Features from './functions/Features'
+import Recomendacao from './functions/Recomendacao';
 import {Link, useParams } from "react-router-dom";
 
-const Sobre = () => {
+const Resultado = () => {
     const [song, setSong] = useState([])
-    const [pesquisa, setPesquisa] = useState('');
-    var recomendacao= []
-
-    let show = false;
+    var recomendacao = []
     let { id } = useParams();
-    let vet = []
 
-    var get_features = async function (event){
+    var get_features = async function (){
+        // chama a função features que através do id da música passado como parametro
+        // pela URL, e pega os aspectos musicais da música selecionada pelo usuário previamente.
         const response = await Features(id);
         setSong(response)
     }
 
-    var handleClick = async function (event) {  
-        
-    }
-
-    var pesquisar = async function (event) {  
-        alert(pesquisa);
-    }
-
-    var recomendar = async function (event) { 
+    var recomendar = async function () { 
+        // após o usuário apertar o botão de recomendação, são criadas diversas tags html como
+        // childs em JS, e, são colocadas em cascatas através de nodes usando JSX
         var bla = Recomendacao(song)
         recomendacao = await Features(bla.id)
         console.log(recomendacao)
@@ -103,11 +93,6 @@ const Sobre = () => {
         document.getElementById('recomendacao').appendChild(musicaRecomendada)
     }
 
-    var playlist = async function (event) {  
-        alert("Playlisy");
-    }
-
-
     return (
         <html className="App">
             <head>
@@ -116,7 +101,7 @@ const Sobre = () => {
             <div  onLoad={get_features}>
                 <div className="App-header">
                     <div id="cima">
-                        <img src={logo} className="App-logo" alt="logo" />
+                        <Link className='link' to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
                         <h1 id="titulo"><Link className='link' to="/">MELODIUM</Link></h1>
                         <h2 id="subtitulo">Encontre suas novas músicas favoritas!</h2>
                     </div>
@@ -136,33 +121,11 @@ const Sobre = () => {
                             <button className='recomendacao' onClick={recomendar}>Recomendação!</button>
                             <a href={'https://open.spotify.com/track/' + song.id} target='_blank' ><img src={spotify} className='logo-spotify' alt="spotify"/></a>   
                     </div>
+
                     <div id="recomendacao">
 
                     </div>
-                    {
-                        //if (recomendacao != undefined)
-                        // {
-                        //     return (
-                        //             <div className="musica-recomendada">
-                        //             <h3 className='selecao'>A música que te recomendamos é:</h3>
-                                
-                        //                 <h1 className="songNome">{song.nome}</h1>
-                        //                 <img className='songImagem' src={song.imagem}></img>
-                        //                 <h3 className='songArtista'>{song.artista}</h3>
-                        //                 <h3 className='songAlbum'>{song.album}</h3>
-                        //                 <h2 className='songFeatures'>Tom: {song.tomExtenso}</h2>
-                        //                 <h2 className='songFeatures'>BPM: {song.bpm}</h2>
-                        //                 <h2 className='songFeatures'>Acústico: {song.acustico}</h2>
-                        //                 <h2 className='songFeaturesDireita'>Emoção: {song.valencia}</h2>
-                        //                 <h2 className='songFeaturesDireita'>Energia: {song.energia}</h2>
-                        //                 <h2 className='songFeaturesDireita'>Volume: {song.volume}</h2>
-                        //                 <button className='recomendacao' onClick={recomendar}>Recomendação!</button>
-                        //                 <a href={'https://open.spotify.com/track/' + song.id} target='_blank' ><img src={spotify} className='logo-spotify' alt="spotify"/></a>   
-                        //         </div>
-                        //     )
-                        // })
-                        
-                    }
+
                 </div>
             </div>
         </html>
@@ -170,4 +133,4 @@ const Sobre = () => {
     );
 }
 
-export default Sobre;
+export default Resultado;
