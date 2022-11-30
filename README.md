@@ -1,3 +1,14 @@
+# 📁 Descrição do Projeto
+  - Trabalho de Conclusão de Curso 
+  - Finalizado em 11/2022, para entrega no Colégio Técnico de Campinas (COTUCA)
+  - Uma aplicação de recomendação de músicas através de análise de aspectos musicais compatíveis
+    - A partir de uma música inserida pelo usuário, através da pesquisa dentro da plataforma, o algoritmo analisa e devolve uma música no banco de dados compatível
+  - Tecnologias usadas:
+    - JavaScript
+    - Spotify API
+    - Node.js
+    - React.js
+
 TCC 
 Melodium - recomendação musical
 
