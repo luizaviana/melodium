@@ -21,7 +21,6 @@
     - Pedro Sakai
     - Luiza Viana
     - Júlia Lopes
- software de recomedação musical a partir das caracteristicas da canção escolhida, como bpm, valência, acústico, etc.
  
 # 🛠️ Abrir e rodar o projeto
 
