@@ -9,7 +9,7 @@
       - Acusticidade (Frequências Instrumentais)
       - Valência ("Emoção da música")
       - Volume (em dB)
-      - 
+      - Energia (Variação de frequências e volume)
   - Tecnologias usadas:
     - JavaScript
     - Spotify API
