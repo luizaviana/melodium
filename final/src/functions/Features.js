@@ -1,10 +1,12 @@
 const fetch = require('node-fetch');
 
+// credenciais disponibilizadas pelo Spotify for developers para acessar a api
 const client_id = '598085d5cea743e39800feb5ec3e5521'
 const client_secret = '63212498d1ab4988b261bea8cde15ca2'
 
 async function Features (id) {
-
+    
+    // Método para pegar o token de acesso da  API Spotify
     const get_token = await fetch('https://accounts.spotify.com/api/token', {
         method: 'POST',
         headers: {
@@ -17,8 +19,7 @@ async function Features (id) {
     const tokenJSON = await get_token.json()
     const token = tokenJSON.access_token
 
-    // 
-    
+    // Usa o método get track da Spotify API a partir do parametro passado e do token
     const music_infos = await fetch(`https://api.spotify.com/v1/tracks/${id}?market=BR`, {
         method: 'GET',
         headers: {
@@ -30,7 +31,10 @@ async function Features (id) {
     const data = await music_infos.json()
     var obj = data
 
+    // Pega as informações básicas da música passada: id, nome, imagem, artista, nome do álbum
     var filtrado = []
+    
+    // O nome da música não pode ser mais que 25 caracters para ficar organizado no frontend
     var nome = obj.name;
     if (obj.name.length > 25)
         nome = obj.name.substring(0, 25) + '...'
@@ -41,8 +45,7 @@ async function Features (id) {
     filtrado.push(obj.id)
     filtrado.push(obj.album.name)
     
-    // 
-
+    // Usa o método get audio-features from track da Spotify API a partir do id da música e do token
     const ft = await fetch(`https://api.spotify.com/v1/audio-features/${id}`, {
         method: 'GET',
         headers: {
@@ -53,8 +56,9 @@ async function Features (id) {
 
     const data2 = await ft.json()
     var obj2 = data2
+
+    // Método para salvar o tom na forma escrita:
     var tomEscrito = '';
-    
     switch (obj2.key) {
         case 0: tomEscrito = "Dó"; break;
         case 1: tomEscrito = "Dó Sustenido"; break;
@@ -71,6 +75,7 @@ async function Features (id) {
         default: tomEscrito = "ERRO !"; break;
     }
 
+    // Coloca as informações básicas + musicais em um objeto. Algumas fetures são alteradas para ficar em uma forma melhor de visualizar e operar:
     const all = {
         nome: filtrado[0],
         artista: filtrado[1],

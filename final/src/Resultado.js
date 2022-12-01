@@ -7,7 +7,7 @@ import {Link, useParams } from "react-router-dom";
 
 const Resultado = () => {
     const [song, setSong] = useState([])
-    var recomendacao = []
+    var recomendacao= []
     let { id } = useParams();
 
     var get_features = async function (){

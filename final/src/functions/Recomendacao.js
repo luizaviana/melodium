@@ -1,4 +1,3 @@
-
 const Recomendacao = (musica) => {
 
     // Acessa o banco de dados local que criamos com opções de músicas para serem recomendadas

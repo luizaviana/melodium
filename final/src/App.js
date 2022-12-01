@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import logo from './assets/melodium-logo.png';
-import Search from './Search.js'
+import Search from './functions/Search.js'
 import './css/App.css';
 import {Link} from "react-router-dom";
 
@@ -8,7 +8,11 @@ const App = () => {
   const [pesquisa, setPesquisa] = useState('');
   const [items, setItems] = useState([])
   
-  var handleClick = async function (event) {  
+  var handleClick = async function () {  
+    /*
+      Chama a Função Search para pegar os 4 primeiros itens retornados 
+      pelo Spotify ao pesquisar o que foi passado ao usuário
+    */
     const response = await Search(pesquisa);
     setItems(response);
   }
@@ -16,19 +20,24 @@ const App = () => {
   return (
     <html>
       <div className="App">
+
         {
-           document.addEventListener('keydown', (event) => {
-              var botao = document.getElementById('b1')
-              if (event.key == 'Enter')
-                botao.click()
-            })
+          // Para quando o usuário clicar no enter fazer a pesquisa, sem precisar apertar o botão
+          document.addEventListener('keydown', (event) => {
+            var botao = document.getElementById('b1')
+            if (event.key == 'Enter')
+              botao.click()
+          })
         }
+
         <header className="App-header">
+
           <div id="cima">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 id="titulo"><Link className='link' to="/">MELODIUM</Link></h1>
             <h2 id="subtitulo">Encontre suas novas músicas favoritas!</h2>
           </div>
+
           <p id="p1">A partir de somente uma música, encontramos similares para completar sua playlist</p>
           <input id="pesquisa" type="search" onChange={event => setPesquisa(event.target.value)} placeholder='Digite aqui sua obsessão do momento'></input>
           <button id="b1" onClick={handleClick}>Pesquisar</button>
@@ -48,13 +57,11 @@ const App = () => {
                 </Link>
               )
               
-              })
-          }</div>
+            })}
+          </div>
         </header>
+
       </div>
-      <script>
-         
-      </script>
     </html>
     
   );
